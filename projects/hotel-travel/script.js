@@ -1,0 +1,1 @@
+document.getElementById('search').onclick=()=>alert(document.getElementById('where').value.trim()?`Searching demo stays in ${document.getElementById('where').value.trim()}...`:'Enter a destination first.');document.getElementById('deal').onclick=()=>alert('Weekend deal selected — booking flow demo.');document.getElementById('sign').onclick=()=>alert('Sign-in flow demo.');
